@@ -1,0 +1,430 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Princess Baby ❤️</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background: #fff0f6;
+    color: #793d59;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 65px 20px;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ffd6e7, #fff0f6, #f8c5db);
+}
+
+.crown {
+    font-size: 75px;
+    animation: float 2s infinite;
+}
+
+h1 {
+    font-size: 48px;
+    color: #bd4c80;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 32px;
+    color: #b84d7c;
+    margin-bottom: 25px;
+}
+
+p {
+    line-height: 1.8;
+    margin: 12px auto;
+}
+
+button {
+    background: #c34e83;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 14px 25px;
+    margin: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #9e3265;
+    transform: scale(1.05);
+}
+
+.card {
+    background: white;
+    border-radius: 18px;
+    padding: 25px;
+    margin: 15px auto;
+    max-width: 600px;
+    box-shadow: 0 5px 20px #d88eae35;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    max-width: 850px;
+    margin: 30px auto;
+}
+
+.gallery img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 18px;
+    border: 5px solid white;
+    box-shadow: 0 5px 20px #c77b9e45;
+}
+
+.reasons, .gifts, .promises {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    max-width: 850px;
+    margin: auto;
+}
+
+.item {
+    background: white;
+    padding: 25px 15px;
+    border-radius: 18px;
+    box-shadow: 0 5px 15px #d88eae25;
+}
+
+.item span {
+    font-size: 35px;
+}
+
+.letter {
+    max-width: 700px;
+    text-align: left;
+    line-height: 2;
+}
+
+.hidden {
+    display: none;
+}
+
+.final {
+    background: linear-gradient(135deg, #f8c5db, #fff0f6);
+}
+
+footer {
+    padding: 30px;
+    color: #a65b7e;
+}
+
+@keyframes float {
+    50% { transform: translateY(-15px); }
+}
+
+@keyframes fade {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.heart {
+    position: fixed;
+    bottom: -30px;
+    font-size: 22px;
+    pointer-events: none;
+    animation: rise 5s linear forwards;
+    z-index: 10;
+}
+
+@keyframes rise {
+    to {
+        transform: translateY(-110vh) rotate(30deg);
+        opacity: 0;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- OPENING -->
+<section class="hero">
+    <div class="crown">👑</div>
+    <p> A SPECIAL SURPRISE FOR YOU </p>
+
+    <h1>My Princess Baby ❤️</h1>
+
+    <p>
+        To the girl who makes my world beautiful.
+        Today is all about YOU!
+    </p>
+
+    <button onclick="document.getElementById('letter').scrollIntoView({behavior:'smooth'})">
+        Open Your Surprise 💗
+    </button>
+</section>
+
+<!-- LOVE LETTER -->
+<section id="letter">
+    <h2>💌 A Letter For My Baby</h2>
+
+    <div class="card letter">
+        My Dearest Baby ❤️
+
+        <br><br>
+
+        I don't know if words will ever be enough to explain
+        how special you are to me.
+
+        You are not just a part of my life.
+        You are one of the most beautiful reasons behind
+        my happiness.
+
+        Your smile makes my difficult days easier.
+        Your presence makes ordinary moments magical.
+        And every little thing about you makes me fall
+        in love with you all over again.
+
+        <br><br>
+
+        I know I am not perfect. Sometimes I make mistakes,
+        sometimes I fail to express my feelings properly.
+        But please never doubt how much you mean to me.
+
+        <br><br>
+
+        If I had to choose one person among billions,
+        I would choose you again and again.
+
+        <br><br>
+
+        You deserve all the happiness, respect, care
+        and love in this world.
+
+        I want to be there for your smiles, your dreams,
+        your achievements and even your difficult days.
+
+        <br><br>
+
+        Thank you for being YOU.
+
+        <br><br>
+
+        <strong style="color:#c34e83">
+            Forever yours,<br>
+            Your Love ❤️
+        </strong>
+    </div>
+</section>
+
+<!-- PHOTO GALLERY -->
+<section>
+    <h2>📸 Our Little World</h2>
+    <p>Some moments I never want to forget.</p>
+
+    <div class="gallery">
+        <div>
+            <img src="second.jpeg" alt="Our special memory">
+            <p>My favourite person ❤️</p>
+        </div>
+
+        <div>
+            <img src="first.jpeg" alt="Our beautiful moment">
+            <p>Every moment with you is special 💗</p>
+        </div>
+    </div>
+</section>
+
+<!-- SIX REASONS -->
+<section>
+    <h2>🌷 Six Reasons Why I Love You</h2>
+
+    <div class="reasons">
+
+        <div class="item">
+            <span>😊</span>
+            <h3>Your Smile</h3>
+            <p>It makes my whole day better.</p>
+        </div>
+
+        <div class="item">
+            <span>❤️</span>
+            <h3>Your Heart</h3>
+            <p>Your beautiful heart makes you special.</p>
+        </div>
+
+        <div class="item">
+            <span>✨</span>
+            <h3>Your Presence</h3>
+            <p>Everything feels better when you are around.</p>
+        </div>
+
+        <div class="item">
+            <span>🥰</span>
+            <h3>Your Cuteness</h3>
+            <p>You are my favourite distraction.</p>
+        </div>
+
+        <div class="item">
+            <span>🫶</span>
+            <h3>Your Love</h3>
+            <p>Your love means everything to me.</p>
+        </div>
+
+        <div class="item">
+            <span>👑</span>
+            <h3>Simply YOU</h3>
+            <p>Because nobody could ever replace you.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- THREE GIFTS -->
+<section>
+    <h2>🎁 Three Gifts For My Princess</h2>
+
+    <div class="gifts">
+
+        <div class="item">
+            <span>🎀</span>
+            <h3>Gift 1</h3>
+            <button onclick="showGift('gift1')">Open Gift</button>
+            <p id="gift1" class="hidden">
+                A thousand hugs and unlimited kisses for you! 🤗
+            </p>
+        </div>
+
+        <div class="item">
+            <span>💎</span>
+            <h3>Gift 2</h3>
+            <button onclick="showGift('gift2')">Open Gift</button>
+            <p id="gift2" class="hidden">
+                You are my most precious treasure. ❤️
+            </p>
+        </div>
+
+        <div class="item">
+            <span>🌹</span>
+            <h3>Gift 3</h3>
+            <button onclick="showGift('gift3')">Open Gift</button>
+            <p id="gift3" class="hidden">
+                My wish is to make countless beautiful memories with you.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- PROMISES -->
+<section>
+    <h2>🤍 Three Promises To You</h2>
+
+    <div class="promises">
+
+        <div class="item">
+            <span>01</span>
+            <h3>I Promise To Listen</h3>
+            <p>Your feelings will always matter to me.</p>
+        </div>
+
+        <div class="item">
+            <span>02</span>
+            <h3>I Promise To Stay</h3>
+            <p>I want to stand beside you through every situation.</p>
+        </div>
+
+        <div class="item">
+            <span>03</span>
+            <h3>I Promise To Choose You</h3>
+            <p>I will keep choosing you, every single day.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- FINAL SURPRISE -->
+<section class="final">
+    <div class="crown">🏰</div>
+
+    <h2>My Princess, My Forever</h2>
+
+    <p>
+        I don't need a kingdom or a castle.
+        <br>
+        Having you in my life makes my world complete.
+    </p>
+
+    <button onclick="finalSurprise()">
+        One Last Surprise ❤️
+    </button>
+
+    <div id="finalMessage" class="hidden">
+        <h1>I LOVE YOU BABY ❤️</h1>
+
+        <h2>👑 You Will Always Be My Princess 👑</h2>
+
+        <p>
+            Happy Princess Day, my love!
+            <br>
+            You are my favourite person,
+            my happiness and my forever.
+        </p>
+
+        <h1>💗🌹💗</h1>
+    </div>
+</section>
+
+<footer>
+    Made with endless love, just for my Baby ❤️
+    <br>
+    Happy Princess Day 👑
+</footer>
+
+<script>
+function showGift(id) {
+    document.getElementById(id).classList.toggle("hidden");
+}
+
+function finalSurprise() {
+    document.getElementById("finalMessage").classList.remove("hidden");
+    document.getElementById("finalMessage").style.animation = "fade 1s";
+    createHearts();
+}
+
+function createHearts() {
+    for (let i = 0; i < 30; i++) {
+        setTimeout(() => {
+            const heart = document.createElement("div");
+            heart.className = "heart";
+            heart.innerHTML = ["❤️", "💕", "💗", "🌸"][Math.floor(Math.random() * 4)];
+            heart.style.left = Math.random() * 100 + "vw";
+            document.body.appendChild(heart);
+
+            setTimeout(() => heart.remove(), 5000);
+        }, i * 150);
+    }
+}
+</script>
+
+</body>
+</html>
